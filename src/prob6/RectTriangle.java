@@ -16,5 +16,4 @@ public class RectTriangle extends Shape {
 	public double getPerimeter() {
 		return Math.sqrt(Math.pow(super.w, 2) + Math.pow(super.h, 2)) + w + h;
 	}
-
 }
