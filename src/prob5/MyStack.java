@@ -28,7 +28,7 @@ public class MyStack<T> {
 	
 	public String pop() throws MyStackException {
 		if(top == -1) {
-			return "Prob5.MyStackException: stack is empty";
+			throw new MyStackException("stack is empty");
 		}
 		
 		String s = buffer[top];
